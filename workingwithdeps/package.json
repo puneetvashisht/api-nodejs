@@ -1,0 +1,19 @@
+{
+  "name": "workingwithdeps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "Puneet",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.23.19",
+    "node-fetch": "^2.6.0"
+  }
+}
